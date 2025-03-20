@@ -26,7 +26,7 @@ def predict_image(model, image):
     prediction = model.predict(processed_image)
     return prediction
 
-st.title("🔥 Wildfire Detection using CNN & VGG16")
+st.title("EcoFlame Shield: Protecting Nature with AI")
 
 uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "png", "jpeg"])
 
