@@ -38,6 +38,6 @@ if uploaded_file is not None:
         class_label = "🔥 Wildfire Detected" if prediction < 0.5 else "✅ No Wildfire"
         
         # Center-align prediction output
-        st.markdown(f"<h2 style='text-align: center; color: red;'>{class_label}</h2>", unsafe_allow_html=True)
+        st.markdown(f"<h2 style='text-align: center; color: Light Pink;'>{class_label}</h2>", unsafe_allow_html=True)
     else:
         st.error("⚠️ Model not loaded correctly!")
